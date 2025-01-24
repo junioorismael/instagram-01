@@ -10,9 +10,12 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
     justify-content: center;
     font-family: sans-serif;
+
 }
 
 .insta-logo {
@@ -22,11 +25,12 @@ body {
 }
 
 .imagem-celular {
-    width: 450px;
+    width: 460px;
 }
 
 .caixa-imagens{
     position: relative;
+    justify-content: center;
 }
 
 .imagem-insta{
@@ -38,7 +42,7 @@ body {
 
 .caixa-form {
     width: 350px;
-    border: 1px solid #dbdbdb;
+    border: 1px solid #a5a5a5;
     padding: 50px 40px 20px 40px;
     display: flex;
     flex-direction: column;
@@ -48,11 +52,11 @@ body {
 
 .cadastre {
     text-align: center;
-    border: 1px solid #dbdbdb;
+    border: 1px solid #a5a5a5;
     width: 350px;
     padding: 20px 20px 20px 20px;
     position: absolute;
-    top: 420px;
+    top: 400px;
     left: 0px;
 }
 .cadastre a {
